@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+html,
+body {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Helvetica, sans-serif;
+}
+
+/* NAVBAR STYLE */
+.navbar-brand img {
+    height: 68px;
+    width: auto;
+    transition: 0.4s;
+}
+
+nav {
+    transition: 0.4s;
+    box-shadow: 0.1em 0.1em 0.5em #888;
+}
+
+nav ul li {
+    font-size: 1em;
+    padding: 0.5em 0.6em;
+    margin: 0.1em;
+    font-weight: bold;
+    vertical-align: center;
+    text-transform: capitalize;
+}
+
+nav ul li a {
+    color: #000 !important;
+    line-height: 40px;
+
+}
+
+nav ul li a:hover {
+    color: #ff5e62 !important;
+}
+
+nav ul li a button {
+    padding: 0.5em 1em 0.5em 1em !important;
+    font-size: 1em;
+    border: 0.1em solid #ff5e62 !important;
+    border-radius: 5em !important;
+    font-weight: bold;
+    color: #ff5e62 !important;
+}
+
+nav ul li a button:hover {
+    background-color: #ff5e62 !important;
+    color: #fff !important;
+}
+
+/* NAVBAR ENDS */
+
+
+/* header section */
+
+.header {
+    background: #ff9966;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9966, #ff5e62);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.header p {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+/* =====================================================
+                 SEARCH SECTION DESIGN 
+=======================================================*/
+
+.searchBar {
+    /* text-align: center; */
+}
+
+.searchBar button {
+    padding: .6em 1em;
+
+    border: none;
+}
+
+.searchBar button:hover {
+    background-color: rgb(9, 8, 63);
+}
+
+/*==========================================
+PRODUCT DETAILS
+============================================ */
+.productDetail,
+.specs {
+    background: url(../img/pattern4.png);
+    font-family: Helvetica, sans-serif;
+}
+
+.productDetail .imgColumn {
+    padding: 4em;
+    background-color: #fff;
+    border-radius: 1em;
+    margin: 2em .25em .5em 3em;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.productDetail img {
+    transition: .5s;
+}
+
+.productDetail img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+.productDetail .detailColumn {
+    padding: 4em;
+    background-color: #fff;
+    margin: 2em 3em .5em .25em;
+    border-radius: 1em;
+}
+
+.detailColumn h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+.detailColumn h6 {
+    color: #ff5e62;
+    font-size: 2em;
+    padding: 1em 1em 1em 0em;
+}
+
+.detailColumn p {
+    color: #777;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.detailColumn h4 {
+    font-weight: bold;
+}
+
+.detailColumn a {
+    text-decoration: none;
+    color: #000;
+}
+
+.detailColumn a:hover {
+    color: #ff5e62;
+}
+
+.detailColumn h5 {
+    padding: 0em 1em 1em .3em;
+}
+
+.detailColumn i {
+    color: #ff5e62;
+    padding: .2em;
+    font-size: 1.4em;
+}
+
+.productSpecs {
+    background-color: #fff;
+    padding: 4em;
+    margin: 0em 2em 2em 2em;
+    border-radius: 1em;
+}
+
+.productSpecs h3 {
+    font-family: Poppins;
+    font-weight: bold;
+    padding: .5em;
+    font-size: 1.5em;
+}
+
+.productSpecs ul {
+    padding: .4em;
+    margin: 0em 2em 0em 2em;
+}
+
+.productSpecs li {
+    padding: .7em;
+    font-size: 1.3em;
+    color: #777;
+}
+
+
+
+
+/* Footer */
+
+
+
+.footer {
+    background-color: #1c1c24;
+    color: #747474;
+    padding: 90px 0;
+    position: relative;
+    background-image: url("../img/pattern2.png");
+    background-attachment: fixed;
+}
+
+.footer .container {
+    z-index: 10;
+    position: relative;
+}
+
+.footer-pattern {
+    background: url("img/footer-pattern.png") no-repeat 50% 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer social */
+
+.footer-social {
+    margin: 40px 0;
+}
+
+.footer-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social ul li {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.footer-social ul li a {
+    text-decoration: none;
+}
+
+.footer-social ul li a i {
+    display: block;
+    font-size: 1.7em;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    background: #fff;
+    box-shadow: inset 0 0 0.3em #474747;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms;
+}
+
+.footer-social ul li a i.fa-youtube {
+    color: #d32a1e;
+}
+
+.footer-social ul li a i.fa-facebook {
+    color: #2c62e0;
+}
+
+.footer-social ul li a i.fa-phone {
+    color: #26ae60;
+}
+
+.footer-social ul li a i.fa-envelope {
+    color: #d32a1e;
+}
+
+.footer-social ul li a i.fa-globe {
+    color: #2c9ee0;
+}
+
+.footer-social ul li a i:hover {
+    color: #fff;
+}
+
+.footer-social ul li a i.fa-youtube:hover {
+    background: #d32a1e;
+    color: #fff;
+}
+
+.footer-social ul li a i.fa-phone:hover {
+    background: #26ae60;
+    color: #fff;
+}
+
+.footer-social ul li a i.fa-envelope:hover {
+    background: #d32a1e;
+    color: #fff;
+}
+
+.footer-social ul li a i.fa-globe:hover {
+    background: #2c9ee0;
+    color: #fff;
+}
+
+.footer-social ul li a i.fa-facebook:hover {
+    background-color: #2c62e0;
+    color: #fff;
+}
+
+#footer h4 {
+    font-weight: bold;
+    padding-top: 0em;
+    color: #fff;
+}
+
+/*-- Footer menu --*/
+
+.footer-menu ul li {
+    display: inline-block;
+    line-height: 12px;
+}
+
+.footer-menu ul.nav li a {
+    background: none;
+    color: #999;
+    padding: 0 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-right: 1px solid #555;
+}
+
+.footer-menu ul.nav li:last-child a {
+    border-right: 0;
+}
+
+.footer-menu ul li a:hover {
+    color: #fff;
+}
+
+/*-- Copyright --*/
+
+.copyright-info {
+    margin: 40px 0 0;
+}
+
+.copyright-info a {
+    text-decoration: none;
+    color: rgb(116, 114, 114);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.copyright-info a:hover {
+    color: #fff;
+    text-decoration: underline;
+    transition: 0.5s;
+}

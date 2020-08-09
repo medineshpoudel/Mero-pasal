@@ -1,0 +1,58 @@
+.row {
+    margin: 1em;
+}
+
+.col {
+    padding: 1em;
+
+
+}
+
+input,
+select {
+    outline: none !important;
+    box-shadow: .05em .05em .2em #ccc !important;
+    border: none !important;
+    border-radius: 2em !important;
+    color: #444 !important;
+    transition: .3s;
+
+}
+
+input {
+    padding: 1.5em !important;
+}
+
+input:focus {
+    box-shadow: .1em .1em 1em #ccc !important;
+    transition: .3s;
+}
+
+.insertData {
+    background-color: #fff;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    Padding: 3em;
+    border-radius: 2em;
+    box-shadow: .2em .2em .8em #ddd;
+}
+
+.insertData h2 {
+    font-family: Poppins;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.btn {
+    padding: .5em 5em;
+    border-radius: 2em;
+    font-size: 1.3em;
+    border: .06em solid #ff5e62;
+    color: #ff5e62;
+}
+
+.btn:hover {
+    background-color: #ff5e62;
+    color: #fff;
+    border: .06em solid #ff5e62;
+}

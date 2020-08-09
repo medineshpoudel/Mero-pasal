@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+html,
+body {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Helvetica, sans-serif;
+}
+
+/* NAVBAR STYLE */
+.navbar-brand img {
+    height: 68px;
+    width: auto;
+    transition: 0.4s;
+}
+
+nav {
+    transition: 0.4s;
+    box-shadow: 0.1em 0.1em 0.5em #888;
+}
+
+nav ul li {
+    font-size: 1em;
+    padding: 0.5em 0.6em;
+    margin: 0.1em;
+    font-weight: bold;
+    vertical-align: center;
+    text-transform: capitalize;
+}
+
+nav ul li a {
+    color: #000 !important;
+    line-height: 40px;
+
+}
+
+nav ul li a:hover {
+    color: #ff5e62 !important;
+}
+
+nav ul li a button {
+    padding: 0.5em 1em 0.5em 1em !important;
+    font-size: 1em;
+    border: 0.1em solid #ff5e62 !important;
+    border-radius: 5em !important;
+    font-weight: bold;
+    color: #ff5e62 !important;
+}
+
+nav ul li a button:hover {
+    background-color: #ff5e62 !important;
+    color: #fff !important;
+}
+
+/* NAVBAR ENDS */
+
+.header {
+    background: #ff9966;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9966, #ff5e62);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.header p {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.about {
+    padding: 2em;
+    text-align: center;
+}
+
+.about i {
+    color: #fff;
+    font-size: 2em;
+    height: 2.5em;
+    width: 2.5em;
+    line-height: 2.5em;
+    background: #ff5e62;
+    box-shadow: .2em .2em 1em #ddd;
+    border-radius: 100%;
+    margin-top: -8em;
+}
+
+.column {
+    background-color: #fff;
+    box-shadow: .2em .2em 1em #eee;
+    margin: 2em;
+    border-radius: 1em;
+    color: #ff5e62;
+}
+
+.about h4 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.about p {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+.information {
+    padding: 2em;
+}
+
+.information .col-md-5 {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    padding: 3em 1em;
+    border-radius: 1em;
+    color: #fff;
+    box-shadow: .2em .2em 1em #ddd;
+}
+
+.information h3 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.information p {
+    font-size: 1.2em;
+    padding-top: .8em;
+}
+
+/* Featured Items */
+
+.featured {
+    background: url("img/pattern4.png");
+    padding: 2em;
+}
+
+.featured h2 {
+    font-weight: bold;
+}
+
+.featured h2 span {
+    color: #ff5e62;
+
+}
+
+.carousel {
+    margin: 50px auto;
+    padding: 0 70px;
+}
+
+.carousel .item {
+    color: #747d89;
+    min-height: 325px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.carousel .thumb-wrapper {
+    padding: 25px 15px;
+    background: #fff;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.carousel .item .img-box {
+    height: 120px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.carousel .item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.carousel .item h4 {
+    font-size: 18px;
+}
+
+.carousel .item h4,
+.carousel .item p,
+.carousel .item ul {
+    margin-bottom: 5px;
+}
+
+.carousel .thumb-content .btn {
+    color: #ff5e62;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #ff5e62;
+    padding: 6px 14px;
+    margin-top: 5px;
+    line-height: 16px;
+    border-radius: 20px;
+}
+
+.carousel .thumb-content .btn:hover,
+.carousel .thumb-content .btn:focus {
+    color: #fff;
+    background: #ff5e62;
+    box-shadow: none;
+}
+
+.carousel .thumb-content .btn i {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.carousel .carousel-control {
+    height: 44px;
+    width: 40px;
+    background: #ff5e62;
+    margin: auto 0;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.carousel .carousel-control:hover {
+    background: #ff5e62;
+    opacity: 1;
+}
+
+.carousel .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.carousel .item-price {
+    font-size: 13px;
+    padding: 2px 0;
+}
+
+.carousel .item-price strike {
+    opacity: 0.7;
+    margin-right: 5px;
+}
+
+.carousel .carousel-control.left i {
+    margin-left: -2px;
+}
+
+.carousel .carousel-control.right i {
+    margin-right: -4px;
+}
+
+.carousel .carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+.carousel-indicators li {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-indicators li.active {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel .wish-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 99;
+    cursor: pointer;
+    font-size: 16px;
+    color: #abb0b8;
+}
+
+.carousel .wish-icon .fa-heart {
+    color: #ff6161;
+}
+
+
+
+/* Footer */
+
+
+
+.footer {
+    background-color: #1c1c24;
+    color: #747474;
+    padding: 90px 0;
+    position: relative;
+    background-image: url("../img/pattern2.png");
+    background-attachment: fixed;
+}
+
+.footer .container {
+    z-index: 10;
+    position: relative;
+}
+
+.footer-pattern {
+    background: url("img/footer-pattern.png") no-repeat 50% 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer social */
+
+.footer-social {
+    margin: 40px 0;
+}
+
+.footer-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social ul li {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.footer-social ul li a {
+    text-decoration: none;
+}
+
+.footer-social ul li a i {
+    display: block;
+    font-size: 1.7em;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    background: #fff;
+    box-shadow: inset 0 0 0.3em #474747;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms;
+}
+
+.footer-social ul li a i.fa-youtube {
+    color: #d32a1e;
+}
+
+.footer-social ul li a i.fa-facebook {
+    color: #2c62e0;
+}
+
+.footer-social ul li a i.fa-phone {
+    color: #26ae60;
+}
+
+.footer-social ul li a i.fa-envelope {
+    color: #d32a1e;
+}
+
+.footer-social ul li a i.fa-globe {
+    color: #2c9ee0;
+}
+
+.footer-social ul li a i:hover {
+    color: #fff;
+}
+
+.footer-social ul li a i.fa-youtube:hover {
+    background: #d32a1e;
+    color: #fff;
+}
+
+.footer-social ul li a i.fa-phone:hover {
+    background: #26ae60;
+    color: #fff;
+}
+
+.footer-social ul li a i.fa-envelope:hover {
+    background: #d32a1e;
+    color: #fff;
+}
+
+.footer-social ul li a i.fa-globe:hover {
+    background: #2c9ee0;
+    color: #fff;
+}
+
+.footer-social ul li a i.fa-facebook:hover {
+    background-color: #2c62e0;
+    color: #fff;
+}
+
+#footer h4 {
+    font-weight: bold;
+    padding-top: 0em;
+    color: #fff;
+}
+
+/*-- Footer menu --*/
+
+.footer-menu ul li {
+    display: inline-block;
+    line-height: 12px;
+}
+
+.footer-menu ul.nav li a {
+    background: none;
+    color: #999;
+    padding: 0 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-right: 1px solid #555;
+}
+
+.footer-menu ul.nav li:last-child a {
+    border-right: 0;
+}
+
+.footer-menu ul li a:hover {
+    color: #fff;
+}
+
+/*-- Copyright --*/
+
+.copyright-info {
+    margin: 40px 0 0;
+}
+
+.copyright-info a {
+    text-decoration: none;
+    color: rgb(116, 114, 114);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.copyright-info a:hover {
+    color: #fff;
+    text-decoration: underline;
+    transition: 0.5s;
+}
